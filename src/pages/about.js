@@ -1,11 +1,23 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "/components/Layout";
 
-const AboutPage = () => (
+// ContactPage component with contact information
+const ContactPage = () => (
   <Layout>
-	<h1>About Me</h1>
-	<p>With a Master’s degree in Data Science from NJIT and a solid Computer Science foundation from Rutgers University, I leverage extensive experience in Java, SQL, and full-stack development. Currently, at HTD Talent, I enhance client projects by delivering tailored software solutions, including a versatile reservation system. I am adept at translating complex technology into practical applications for diverse clients.</p>
+    <h1>Contact Me</h1>
+    <p>
+      <strong>Email:</strong>{" "}
+      <a href="mailto:shashwat.singh98@gmail.com">shashwat.singh98@gmail.com</a>
+    </p>
+    <p>
+      <strong>Phone:</strong>{" "}
+      <a href="tel:732-210-7862">732-210-7862</a>
+    </p>
+    <p>
+      <strong>LinkedIn:</strong>{" "}
+      <a href="https://linkedin.com/in/shashwhat">linkedin.com/in/shashwat</a>
+    </p>
   </Layout>
 );
 
-export default AboutPage;
+export default ContactPage; // Exporting ContactPage component as default

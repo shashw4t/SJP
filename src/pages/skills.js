@@ -1,7 +1,7 @@
+import React from "react";
+import Layout from "/components/Layout";
 
-export default SkillsPage;import React from "react";
-import Layout from "../components/Layout";
-
+// SkillsPage component with a list of skills
 const SkillsPage = () => (
   <Layout>
     <h1>Skills</h1>
@@ -20,4 +20,4 @@ const SkillsPage = () => (
   </Layout>
 );
 
-export default SkillsPage;
+export default SkillsPage; // Exporting SkillsPage component as default
