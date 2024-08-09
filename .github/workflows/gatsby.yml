@@ -50,7 +50,6 @@ jobs:
           else
             echo "Unable to determine package manager"
             exit 1
-          fi
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -75,6 +74,8 @@ jobs:
             ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+      - name: Increase Node.js memory limit
+        run: echo "NODE_OPTIONS=--max_old_space_size=4096" >> $GITHUB_ENV
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'true'
