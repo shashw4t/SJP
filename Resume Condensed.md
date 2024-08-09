@@ -1,6 +1,6 @@
 # Shashwat Singh
-**Email:** [shashwat.singh98@gmail.com]
-**Phone:** [732-210-7862] 
+**Email:** [hidden]
+**Phone:** [hidden]
 **LinkedIn:** [linkedin.com/in/shashwat](https://linkedin.com/in/shashwhat)
 
 ---
