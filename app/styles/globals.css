@@ -12,7 +12,7 @@
   --secondary-font: 'Roboto', sans-serif;
 }
 .text-right {
-  text-align: right;
+  text-align: left;
 }
 
 /* Global Styles */
