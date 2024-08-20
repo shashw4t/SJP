@@ -1,8 +1,6 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-npm install tailwindcss
-
 
 :root {
   --night: #171614ff;
@@ -12,9 +10,6 @@ npm install tailwindcss
   --black-olive: #37423dff;
   --primary-font: 'Inter', sans-serif;
   --secondary-font: 'Roboto', sans-serif;
-}
-.text-right {
-  text-align: left;
 }
 
 /* Global Styles */
@@ -63,6 +58,7 @@ section {
   border-radius: 0.5rem;
   background-color: var(--black-olive);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Ensure sections are left-aligned */
 }
 
 section h2 {
