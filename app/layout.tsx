@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import LandingPage from "./landingpage"; // Import the new component
+import LandingPage from "./components/landingpage"; // Ensure correct import path
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +14,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body className={inter.className}>
-        <LandingPage /> {/* Add the LandingPage component */}
+        <LandingPage /> {/* Render the LandingPage component */}
         <main>{children}</main>
         <footer className="p-4 bg-gray-800 text-white text-center">
           © 2024 Shashw4t&apos;s Portfolio

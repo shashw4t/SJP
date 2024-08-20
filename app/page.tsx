@@ -1,14 +1,12 @@
-import Image from "next/image";
-import Portfolio from "./portfolio";
-import Education from "./education";
-import Experience from "./experience";
-import Resume from "./resume";
+import React from "react";
+import Image from "next/image"; // Importing Image from next/image
+import Resume from "./components/Resume"; // Adjust the path as necessary
+import Portfolio from "./components/portfolio"; // Adjust the path as necessary
+import Education from "./components/education"; // Adjust the path as necessary
+import Experience from "./components/experience"; // Adjust the path as necessary
 
 const NavigationLink = ({ href, title, description }: { href: string, title: string, description: string }) => (
-  <a
-    href={href}
-    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-  >
+  <a href={href} className="nav-link">
     <h2 className="mb-3 text-2xl font-semibold">
       {title}{" "}
       <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">

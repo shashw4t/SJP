@@ -1,69 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --primary-color: #606c38;
-  --secondary-color: #283618;
-  --background-color: #fefae0;
-  --accent-color: #dda15e;
-  --text-color: #bc6c25;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary-color: #283618;
-    --secondary-color: #606c38;
-    --background-color: #283618;
-    --accent-color: #dda15e;
-    --text-color: #fefae0;
-  }
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--text-color);
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      var(--background-color)
-    )
-    var(--secondary-color);
+  font-weight: 900;
+  color: #f8f8f8;
+  background-color: #1b4332;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 7xl;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  background-color: #f0f4f8;
+  color: #1f2937;
 }
 
 .heading {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
+  font-size: 4xl;
+  color: #34d399;
 }
 
 .button {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: var(--primary-color);
-  color: var(--background-color);
-  border-radius: 0.25rem;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+  padding: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #34d399;
+  color: #f0f4f8;
+  border-radius: 4px;
+  transition: background-color 300ms ease-in-out;
+  duration: 300ms;
 }
 
 .button:hover {
-  background-color: var(--accent-color);
+  background-color: #065f46;
 }
 
 .text-balance {
-  text-wrap: balance;
+  white-space: pre-wrap;
 }
 
-/* Add styles for the landing page */
 .landing-page {
   display: flex;
   flex-direction: column;
@@ -71,24 +52,118 @@ body {
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: #1f2937;
+  color: #f0f4f8;
 }
 
 .landing-page img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 36px;
+  height: 36px;
   object-fit: cover;
-  margin-bottom: 1rem;
+  margin-bottom: 4px;
 }
 
 .landing-page h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 2xl;
+  margin-bottom: 2px;
+  color: #34d399;
 }
 
 .landing-page p {
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
+  font-size: base;
+  margin-bottom: 1px;
+  color: #84cc16;
+}
+
+.portfolio-section {
+  padding: 16px;
+}
+
+.portfolio-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.portfolio-item {
+  margin-bottom: 16px;
+}
+
+.portfolio-item-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.portfolio-item-subtitle {
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+.portfolio-item-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.resume-section {
+  padding: 16px;
+}
+
+.summary-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.summary-text {
+  margin-bottom: 16px;
+}
+
+.contact-info {
+  padding: 32px;
+}
+
+.name-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contact-item {
+  margin-bottom: 8px;
+}
+
+.divider {
+  margin: 16px 0;
+}
+
+.footer {
+  padding: 16px;
+  background-color: #1f2937;
+  color: #f0f4f8;
+  text-align: center;
+}
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #1f2937;
+  background-color: #f0f4f8;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #34d399;
+  border-color: #065f46;
+  color: #f0f4f8;
+}
+
+.nav-link:active {
+  background-color: #065f46;
+  border-color: #34d399;
+  color: #f0f4f8;
 }
