@@ -1,5 +1,8 @@
 import Image from "next/image";
-import Resume from "./resume";
+import Resume from "./Resume";
+import Portfolio from "./Portfolio";
+import Education from "./Education";
+import Experience from "./Experience";
 
 const NavigationLink = ({ href, title, description }: { href: string, title: string, description: string }) => (
   <a
@@ -50,6 +53,16 @@ export default function Home() {
           title="Portfolio"
           description="Explore my projects and accomplishments."
         />
+        <NavigationLink
+          href="#education"
+          title="Education"
+          description="Learn about my academic background."
+        />
+        <NavigationLink
+          href="#experience"
+          title="Experience"
+          description="Discover my work experience."
+        />
       </nav>
 
       {/* Resume Section */}
@@ -59,8 +72,17 @@ export default function Home() {
 
       {/* Portfolio Section */}
       <section id="portfolio" className="w-full max-w-5xl mt-16">
-        <h2 className="text-2xl font-bold mb-4">Portfolio</h2>
-        {/* Add your portfolio items here */}
+        <Portfolio />
+      </section>
+
+      {/* Education Section */}
+      <section id="education" className="w-full max-w-5xl mt-16">
+        <Education />
+      </section>
+
+      {/* Experience Section */}
+      <section id="experience" className="w-full max-w-5xl mt-16">
+        <Experience />
       </section>
     </main>
   );
