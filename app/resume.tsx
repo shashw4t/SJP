@@ -1,7 +1,7 @@
 // Resume.tsx
 import React from "react";
 
-const Summary = () => (
+const Resume = () => (
   <section>
     <h2 className="text-2xl font-bold mb-2">Summary</h2>
     <p>
@@ -24,4 +24,4 @@ const Summary = () => (
   </section>
 );
 
-export default Summary;
+export default Resume;

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Resume from "./Resume";
 import Portfolio from "./Portfolio";
 import Education from "./Education";
 import Experience from "./Experience";
+import Resume from "./resume";
 
 const NavigationLink = ({ href, title, description }: { href: string, title: string, description: string }) => (
   <a
