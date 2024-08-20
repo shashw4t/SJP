@@ -7,8 +7,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  color: #f8f8f8;
-  background-color: #1b4332;
+  color: #c5c3c4; /* Updated to light gray */
+  background-color: #212531; /* Updated to deep purple */
 }
 
 .container {
@@ -16,13 +16,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
-  background-color: #f0f4f8;
-  color: #1f2937;
+  background-color: #c5c3c4; /* Updated to light gray */
+  color: #212531; /* Updated to deep purple */
 }
 
 .heading {
   font-size: 4xl;
-  color: #34d399;
+  color: #4b3a70; /* Updated to medium purple */
 }
 
 .button {
@@ -30,15 +30,15 @@ body {
   padding: 6px;
   padding-left: 6px;
   padding-right: 6px;
-  background-color: #34d399;
-  color: #f0f4f8;
+  background-color: #4b3a70; /* Updated to medium purple */
+  color: #c5c3c4; /* Updated to light gray */
   border-radius: 4px;
   transition: background-color 300ms ease-in-out;
   duration: 300ms;
 }
 
 .button:hover {
-  background-color: #065f46;
+  background-color: #322f42; /* Updated to dark purple */
 }
 
 .text-balance {
@@ -52,8 +52,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  background-color: #1f2937;
-  color: #f0f4f8;
+  background-color: #212531; /* Updated to deep purple */
+  color: #c5c3c4; /* Updated to light gray */
 }
 
 .landing-page img {
@@ -67,13 +67,13 @@ body {
 .landing-page h2 {
   font-size: 2xl;
   margin-bottom: 2px;
-  color: #34d399;
+  color: #4b3a70; /* Updated to medium purple */
 }
 
 .landing-page p {
   font-size: base;
   margin-bottom: 1px;
-  color: #84cc16;
+  color: #b7a2c9; /* Updated to light purple */
 }
 
 .portfolio-section {
@@ -140,16 +140,17 @@ body {
 
 .footer {
   padding: 16px;
-  background-color: #1f2937;
-  color: #f0f4f8;
+  background-color: #212531; /* Updated to deep purple */
+  color: #c5c3c4; /* Updated to light gray */
   text-align: center;
 }
+
 .nav-link {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
-  color: #1f2937;
-  background-color: #f0f4f8;
+  color: #212531; /* Updated to deep purple */
+  background-color: #c5c3c4; /* Updated to light gray */
   border: 2px solid transparent;
   border-radius: 4px;
   text-decoration: none;
@@ -157,13 +158,13 @@ body {
 }
 
 .nav-link:hover {
-  background-color: #34d399;
-  border-color: #065f46;
-  color: #f0f4f8;
+  background-color: #4b3a70; /* Updated to medium purple */
+  border-color: #322f42; /* Updated to dark purple */
+  color: #c5c3c4; /* Updated to light gray */
 }
 
 .nav-link:active {
-  background-color: #065f46;
-  border-color: #34d399;
-  color: #f0f4f8;
+  background-color: #322f42; /* Updated to dark purple */
+  border-color: #4b3a70; /* Updated to medium purple */
+  color: #c5c3c4; /* Updated to light gray */
 }
