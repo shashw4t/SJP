@@ -14,11 +14,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body className={inter.className}>
         <header className="p-4 bg-gray-800 text-white">
-          <h1 className="text-3xl">Shashw4t's Portfolio</h1>
+          <h1 className="text-3xl">Shashw4t&apos;s Portfolio</h1>
         </header>
         <main>{children}</main>
         <footer className="p-4 bg-gray-800 text-white text-center">
-          © 2024 Shashw4t's Portfolio
+          © 2024 Shashw4t&apos;s Portfolio
         </footer>
       </body>
     </html>
