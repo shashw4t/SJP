@@ -35,7 +35,10 @@ const Portfolio = () => {
       </div>
       <div className="portfolio-item">
         <h3 className="portfolio-item-title">Wikipedia Spark Analysis</h3>
-        <p className="portfolio-item-subtitle"><em>Analyzed full-text Wikipedia articles using Apache Spark. This project involved processing large datasets and performing various data analysis tasks using Spark's powerful data processing capabilities.</em></p>
+        <p className="portfolio-item-subtitle"><em>
+          Analyzed full-text Wikipedia articles using Apache Spark. 
+          This project involved processing large datasets and performing various data analysis tasks using Spark&rsquo;s
+           powerful data processing capabilities.</em></p>
         <ul className="portfolio-item-list">
           <li><strong>Key Features:</strong></li>
           <li>Processed and analyzed large-scale text data.</li>
