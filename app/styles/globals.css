@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --night: #171614ff;
+  --bistre: #3a2618ff;
+  --garnet: #754043ff;
+  --beaver: #9a8873ff;
+  --black-olive: #37423dff;
+}

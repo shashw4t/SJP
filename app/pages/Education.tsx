@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Education = () => {
   return (
     <section className="education-section p-6 bg-gray-100">

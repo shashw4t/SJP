@@ -1,10 +1,20 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{html,js,jsx,ts,tsx}', // Adjust the path according to your project structure
-    './public/index.html', // Include any other paths where Tailwind CSS classes are used
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        night: '#171614',
+        bistre: '#3a2618',
+        garnet: '#754043',
+        beaver: '#9a8873',
+        'black-olive': '#37423d',
+      },
+    },
   },
   plugins: [],
 }
+
