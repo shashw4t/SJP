@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 
 const NavigationLink = ({ href, title, description }: { href: string, title: string, description: string }) => {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -30,12 +29,8 @@ const NavigationLink = ({ href, title, description }: { href: string, title: str
 
 export default function LandingPage() {
   return (
-    <div className="bg-night text-beaver min-h-screen flex flex-col items-center justify-center">
-      <div className="center-content">
-        <h1>Portfolio</h1>
-      </div>
-      <Image src="/app/background.jpg" alt="Landing" width={500} height={300} />
-      <nav className="mb-32 grid text-center w-full max-w-5xl grid-cols-1 gap-8 mt-8">
+    <div className="bg-night text-beaver min-h-screen flex items-center justify-center">
+      <nav className="flex space-x-8">
         <NavigationLink
           href="#summary"
           title="Summary"
@@ -45,16 +40,6 @@ export default function LandingPage() {
           href="#portfolio"
           title="Portfolio"
           description="Explore my projects and accomplishments."
-        />
-        <NavigationLink
-          href="#education"
-          title="Education"
-          description="Learn about my academic background."
-        />
-        <NavigationLink
-          href="#experience"
-          title="Experience"
-          description="Discover my work experience."
         />
       </nav>
     </div>
