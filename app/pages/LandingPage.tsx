@@ -41,6 +41,16 @@ export default function LandingPage() {
           title="Portfolio"
           description="Explore my projects and accomplishments."
         />
+        <NavigationLink
+          href="#education"
+          title="Education"
+          description="Learn about my academic background."
+        />
+        <NavigationLink
+          href="#experience"
+          title="Experience"
+          description="Discover my work experience."
+        />
       </nav>
     </div>
   );
