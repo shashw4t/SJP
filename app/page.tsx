@@ -1,87 +1,46 @@
-import React from "react";
-import Image from "next/image"; // Importing Image from next/image
-import Resume from "./components/Resume"; // Adjust the path as necessary
-import Portfolio from "./components/portfolio"; // Adjust the path as necessary
-import Education from "./components/education"; // Adjust the path as necessary
-import Experience from "./components/experience"; // Adjust the path as necessary
+"use client";
 
-const NavigationLink = ({ href, title, description }: { href: string, title: string, description: string }) => (
-  <a href={href} className="nav-link">
-    <h2 className="mb-3 text-2xl font-semibold">
-      {title}{" "}
-      <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-        -&gt;
-      </span>
-    </h2>
-    <p className="m-0 max-w-[30ch] text-sm opacity-50">{description}</p>
-  </a>
-);
+import React from "react";
+import Resume from "./pages/Resume";
+import Portfolio from "./pages/Portfolio";
+import Education from "./pages/Education";
+import Experience from "./pages/Experience";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/* Header */}
-      <header className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Welcome to My Portfolio
-        </p>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#0a0a0a] text-[#e0e0e0] p-8">
+      <header className="text-center mb-8">
+        <h1 className="text-4xl font-bold">Welcome to Shashw4t&apos;s Portfolio</h1>
       </header>
-
-      {/* Logo */}
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      
+      <div className="space-y-4 mb-16">
+        <button className="btn">Professional Summary</button>
+        <button className="btn">Education</button>
+        <button className="btn">Experience</button>
+        <button className="btn">Portfolio</button>
       </div>
+      
+      <main className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-5xl">
+        <section id="resume" className="w-full">
+          <h2 className="text-2xl font-semibold mb-4">Resume</h2>
+          <Resume />
+        </section>
 
-      {/* Navigation Links */}
-      <nav className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <NavigationLink
-          href="#resume"
-          title="Resume"
-          description="View my professional experience and education."
-        />
-        <NavigationLink
-          href="#portfolio"
-          title="Portfolio"
-          description="Explore my projects and accomplishments."
-        />
-        <NavigationLink
-          href="#education"
-          title="Education"
-          description="Learn about my academic background."
-        />
-        <NavigationLink
-          href="#experience"
-          title="Experience"
-          description="Discover my work experience."
-        />
-      </nav>
+        <section id="portfolio" className="w-full">
+          <h2 className="text-2xl font-semibold mb-4">Portfolio</h2>
+          <Portfolio />
+        </section>
 
-      {/* Resume Section */}
-      <section id="resume" className="w-full max-w-5xl">
-        <Resume />
-      </section>
+        <section id="education" className="w-full">
+          <h2 className="text-2xl font-semibold mb-4">Education</h2>
+          <Education />
+        </section>
 
-      {/* Portfolio Section */}
-      <section id="portfolio" className="w-full max-w-5xl mt-16">
-        <Portfolio />
-      </section>
-
-      {/* Education Section */}
-      <section id="education" className="w-full max-w-5xl mt-16">
-        <Education />
-      </section>
-
-      {/* Experience Section */}
-      <section id="experience" className="w-full max-w-5xl mt-16">
-        <Experience />
-      </section>
-    </main>
+        <section id="experience" className="w-full">
+          <h2 className="text-2xl font-semibold mb-4">Experience</h2>
+          <Experience />
+        </section>
+      </main>
+    </div>
   );
 }

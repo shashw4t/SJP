@@ -7,8 +7,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  color: #d3d3d3; /* Updated to light gray */
-  background-color: #0b3d0b; /* Updated to deep dark forest green */
+  color: #e0e0e0; /* Light gray for text */
+  background-color: #1a1a1a; /* Slightly less dark for background */
 }
 
 .container {
@@ -16,13 +16,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
-  background-color: #d3d3d3; /* Updated to light gray */
-  color: #0b3d0b; /* Updated to deep dark forest green */
+  background-color: #2a2a2a; /* Dark gray for container background */
+  color: #e0e0e0; /* Light gray for text */
 }
 
 .heading {
   font-size: 4xl;
-  color: #a9a9a9; /* Updated to silver */
+  color: #b3ffab; /* Light green for headers */
 }
 
 .button {
@@ -30,15 +30,15 @@ body {
   padding: 6px;
   padding-left: 6px;
   padding-right: 6px;
-  background-color: #a9a9a9; /* Updated to silver */
-  color: #0b3d0b; /* Updated to deep dark forest green */
+  background-color: #b3ffab; /* Light green for button background */
+  color: #0a0a0a; /* Almost black for button text */
   border-radius: 4px;
   transition: background-color 300ms ease-in-out;
   duration: 300ms;
 }
 
 .button:hover {
-  background-color: #696969; /* Updated to dim gray */
+  background-color: #4d4d4d; /* Medium gray for button hover */
 }
 
 .text-balance {
@@ -52,8 +52,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  background-color: #0b3d0b; /* Updated to deep dark forest green */
-  color: #d3d3d3; /* Updated to light gray */
+  background-color: #1a1a1a; /* Slightly less dark for background */
+  color: #e0e0e0; /* Light gray for text */
 }
 
 .landing-page img {
@@ -67,13 +67,13 @@ body {
 .landing-page h2 {
   font-size: 2xl;
   margin-bottom: 2px;
-  color: #a9a9a9; /* Updated to silver */
+  color: #b3ffab; /* Light green for headers */
 }
 
 .landing-page p {
   font-size: base;
   margin-bottom: 1px;
-  color: #d3d3d3; /* Updated to light gray */
+  color: #e0e0e0; /* Light gray for text */
 }
 
 .portfolio-section {
@@ -84,6 +84,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 8px;
+  color: #b3ffab; /* Light green for headers */
 }
 
 .portfolio-item {
@@ -94,16 +95,19 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 4px;
+  color: #b3ffab; /* Light green for headers */
 }
 
 .portfolio-item-subtitle {
   font-style: italic;
   margin-bottom: 4px;
+  color: #e0e0e0; /* Light gray for text */
 }
 
 .portfolio-item-list {
   list-style-type: disc;
   padding-left: 20px;
+  color: #e0e0e0; /* Light gray for text */
 }
 
 .resume-section {
@@ -114,10 +118,12 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 8px;
+  color: #b3ffab; /* Light green for headers */
 }
 
 .summary-text {
   margin-bottom: 16px;
+  color: #e0e0e0; /* Light gray for text */
 }
 
 .contact-info {
@@ -128,20 +134,23 @@ body {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 8px;
+  color: #b3ffab; /* Light green for headers */
 }
 
 .contact-item {
   margin-bottom: 8px;
+  color: #e0e0e0; /* Light gray for text */
 }
 
 .divider {
   margin: 16px 0;
+  border-bottom: 1px solid #4d4d4d; /* Medium gray for divider */
 }
 
 .footer {
   padding: 16px;
-  background-color: #0b3d0b; /* Updated to deep dark forest green */
-  color: #d3d3d3; /* Updated to light gray */
+  background-color: #2a2a2a; /* Dark gray for footer background */
+  color: #e0e0e0; /* Light gray for text */
   text-align: center;
 }
 
@@ -149,8 +158,8 @@ body {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
-  color: #0b3d0b; /* Updated to deep dark forest green */
-  background-color: #d3d3d3; /* Updated to light gray */
+  color: #0a0a0a; /* Almost black for text */
+  background-color: #b3ffab; /* Light green for background */
   border: 2px solid transparent;
   border-radius: 4px;
   text-decoration: none;
@@ -158,13 +167,204 @@ body {
 }
 
 .nav-link:hover {
-  background-color: #a9a9a9; /* Updated to silver */
-  border-color: #696969; /* Updated to dim gray */
-  color: #0b3d0b; /* Updated to deep dark forest green */
+  background-color: #4d4d4d; /* Medium gray for hover */
+  border-color: #b3ffab; /* Light green for border */
+  color: #e0e0e0; /* Light gray for text */
 }
 
 .nav-link:active {
-  background-color: #696969; /* Updated to dim gray */
-  border-color: #a9a9a9; /* Updated to silver */
-  color: #0b3d0b; /* Updated to deep dark forest green */
+  background-color: #4d4d4d; /* Medium gray for active */
+  border-color: #b3ffab; /* Light green for border */
+  color: #e0e0e0; /* Light gray for text */
+}@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #e0e0e0; /* Light gray for text */
+  background-color: #1a1a1a; /* Slightly less dark for background */
+}
+
+.container {
+  max-width: 7xl;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  background-color: #2a2a2a; /* Dark gray for container background */
+  color: #e0e0e0; /* Light gray for text */
+}
+
+.heading {
+  font-size: 4xl;
+  color: #b3ffab; /* Light green for headers */
+}
+
+.button {
+  display: inline-block;
+  padding: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #b3ffab; /* Light green for button background */
+  color: #0a0a0a; /* Almost black for button text */
+  border-radius: 4px;
+  transition: background-color 300ms ease-in-out;
+  duration: 300ms;
+}
+
+.button:hover {
+  background-color: #4d4d4d; /* Medium gray for button hover */
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.text-balance {
+  white-space: pre-wrap;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #1a1a1a; /* Slightly less dark for background */
+  color: #e0e0e0; /* Light gray for text */
+}
+
+.landing-page img {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  margin-bottom: 4px;
+}
+
+.landing-page h2 {
+  font-size: 2xl;
+  margin-bottom: 2px;
+  color: #b3ffab; /* Light green for headers */
+}
+
+.landing-page p {
+  font-size: base;
+  margin-bottom: 1px;
+  color: #e0e0e0; /* Light gray for text */
+}
+
+.portfolio-section {
+  padding: 16px;
+}
+
+.portfolio-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #b3ffab; /* Light green for headers */
+}
+
+.portfolio-item {
+  margin-bottom: 16px;
+}
+
+.portfolio-item-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #b3ffab; /* Light green for headers */
+}
+
+.portfolio-item-subtitle {
+  font-style: italic;
+  margin-bottom: 4px;
+  color: #e0e0e0; /* Light gray for text */
+}
+
+.portfolio-item-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #e0e0e0; /* Light gray for text */
+}
+
+.resume-section {
+  padding: 16px;
+}
+
+.summary-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #b3ffab; /* Light green for headers */
+}
+
+.summary-text {
+  margin-bottom: 16px;
+  color: #e0e0e0; /* Light gray for text */
+}
+
+.contact-info {
+  padding: 32px;
+}
+
+.name-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #b3ffab; /* Light green for headers */
+}
+
+.contact-item {
+  margin-bottom: 8px;
+  color: #e0e0e0; /* Light gray for text */
+}
+
+.divider {
+  margin: 16px 0;
+  border-bottom: 1px solid #4d4d4d; /* Medium gray for divider */
+}
+
+.footer {
+  padding: 16px;
+  background-color: #2a2a2a; /* Dark gray for footer background */
+  color: #e0e0e0; /* Light gray for text */
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #0a0a0a; /* Almost black for text */
+  background-color: #b3ffab; /* Light green for background */
+  border: 2px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #4d4d4d; /* Medium gray for hover */
+  border-color: #b3ffab; /* Light green for border */
+  color: #e0e0e0; /* Light gray for text */
+}
+
+.nav-link:active {
+  background-color: #4d4d4d; /* Medium gray for active */
+  border-color: #b3ffab; /* Light green for border */
+  color: #e0e0e0; /* Light gray for text */
 }
