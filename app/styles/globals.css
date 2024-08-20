@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima+Koshi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -8,9 +8,9 @@
   --dark: #3D3B40;
   --blue: #525CEB;
   --light: #BFCFE7;
-  --lavender: #b66ae6;
-  --primary-font: 'Arima Koshi', sans-serif;
-  --secondary-font: 'Arima Koshi', sans-serif;
+  --lavender: #F8EDFF;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
 }
 
 /* Global Styles */
