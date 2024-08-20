@@ -15,14 +15,11 @@ const NavigationLink = ({ href, title, description }: { href: string, title: str
   };
 
   return (
-    <a href={href} onClick={handleClick} className="cursor-pointer no-underline text-inherit">
-      <h2 className="mb-3 text-2xl font-semibold">
+    <a href={href} onClick={handleClick} className="cursor-pointer no-underline text-inherit p-4 bg-beaver text-night rounded-lg shadow-md hover:bg-night hover:text-beaver transition-colors duration-300">
+      <h2 className="mb-1 text-xl font-semibold">
         {title}
-        <span className="inline-block transition-transform transform translate-x-0">
-          -&gt;
-        </span>
       </h2>
-      <p className="m-0 max-w-xs text-sm opacity-50">{description}</p>
+      <p className="m-0 text-sm opacity-75">{description}</p>
     </a>
   );
 };
