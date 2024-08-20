@@ -1,12 +1,13 @@
-/* Existing styles */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Import the Arima Koshi font */
+@import url('https://fonts.googleapis.com/css2?family=Arima+Koshi:wght@400;700&display=swap');
 
+/* Existing styles */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arima Koshi', sans-serif;
   font-weight: 900;
   color: #d3d3d3; /* Light gray/silver for text */
   background-color: #0d0d0d; /* Darkest black/gray for background */
@@ -59,6 +60,36 @@ body {
   white-space: pre-wrap;
 }
 
+/* Set the background color of all sections to #1a1a1a */
+body, .container, .portfolio-section, .resume-section, .contact-info, .footer, .education-section, .experience-section, .summary-section, .landing-page {
+  background-color: #1a1a1a;
+}
+
+/* Landing Page: Deep dark burgundy/maroon red */
+.landing-page {
+  background-color: #3b0000;
+}
+
+/* Summary: Slightly lighter burgundy/maroon red */
+.summary-section {
+  background-color: #5c0000;
+}
+
+/* Portfolio: Lighter burgundy/maroon red */
+.portfolio-section {
+  background-color: #7d0000;
+}
+
+/* Education: Even lighter burgundy/maroon red */
+.education-section {
+  background-color: #9e0000;
+}
+
+/* Experience: Lightest burgundy/maroon red */
+.experience-section {
+  background-color: #bf0000;
+}
+
 .landing-page {
   display: flex;
   flex-direction: column;
@@ -66,7 +97,6 @@ body {
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  background-color: #0d0d0d; /* Darkest black/gray for background */
   color: #d3d3d3; /* Light gray/silver for text */
 }
 
@@ -88,11 +118,6 @@ body {
   font-size: base;
   margin-bottom: 1px;
   color: #d3d3d3; /* Light gray/silver for text */
-}
-
-.portfolio-section {
-  padding: 16px;
-  background-color: #1a1a1a; /* Slightly lighter dark black/gray for section background */
 }
 
 .portfolio-title {
@@ -127,7 +152,6 @@ body {
 
 .resume-section {
   padding: 16px;
-  background-color: #262626; /* Slightly lighter dark black/gray for section background */
 }
 
 .summary-title {
@@ -144,7 +168,6 @@ body {
 
 .contact-info {
   padding: 32px;
-  background-color: #333333; /* Slightly lighter dark black/gray for section background */
 }
 
 .name-title {
@@ -166,7 +189,6 @@ body {
 
 .footer {
   padding: 16px;
-  background-color: #404040; /* Slightly lighter dark black/gray for footer background */
   color: #d3d3d3; /* Light gray/silver for text */
   text-align: center;
 }
@@ -195,20 +217,6 @@ body {
   color: #d3d3d3; /* Light gray/silver for text */
 }
 
-/* New styles for Education and Experience components */
-.education-section {
-  padding: 16px;
-  background-color: #1a1a1a; /* Slightly lighter dark black/gray for section background */
-  color: #d3d3d3; /* Light gray/silver for text */
-}
-
-.section-title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 16px;
-  color: #a3ffab; /* Light green for headers */
-}
-
 .education-item {
   margin-bottom: 16px;
 }
@@ -228,12 +236,6 @@ body {
 
 .graduation-year {
   margin-bottom: 8px;
-  color: #d3d3d3; /* Light gray/silver for text */
-}
-
-.experience-section {
-  padding: 16px;
-  background-color: #262626; /* Slightly lighter dark black/gray for section background */
   color: #d3d3d3; /* Light gray/silver for text */
 }
 
