@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
-import "/styles/globals.css";
-import LandingPage from "./pages/LandingPage"; // Ensure correct import path
+import './styles/globals.css'; // Updated path
+
+import type { Metadata } from 'next';
+import LandingPage from './pages/LandingPage'; // Ensure correct import path
 
 export const metadata: Metadata = {
   title: "Shashw4t's Portfolio",

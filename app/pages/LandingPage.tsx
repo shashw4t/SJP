@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import "/styles/globals.css"; // Import the CSS file
 import Image from "next/image";
 
 const NavigationLink = ({ href, title, description }: { href: string, title: string, description: string }) => {
