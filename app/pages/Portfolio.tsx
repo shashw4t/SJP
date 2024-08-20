@@ -5,91 +5,85 @@ const Portfolio = () => {
     <section className="portfolio-section">
       <h2 className="portfolio-title">Portfolio</h2>
       <div className="portfolio-item">
-        <h3 className="portfolio-item-title">Personal Portfolio Website</h3>
-        <p className="portfolio-item-subtitle"><em>Self-initiated</em></p>
-        <p className="portfolio-item-subtitle"><em>Ongoing</em></p>
+        <h3 className="portfolio-item-title">Don’t Wreck My House (DWMH)</h3>
+        <p className="portfolio-item-subtitle"><em>Architected and developed a comprehensive project management system to streamline the management of guest reservations for hosts. Leveraging Java and JUnit for robust functionality, the system significantly improved operational efficiency and reduced booking errors.</em></p>
         <ul className="portfolio-item-list">
-          <li><strong>Development:</strong> Built using React, TypeScript, and Tailwind CSS.</li>
-          <li><strong>Backend:</strong> Integrated with Node.js and Express for server-side operations.</li>
-          <li><strong>Deployment:</strong> Hosted on a cloud platform with CI/CD pipelines.</li>
-          <li><strong>Features:</strong> Showcases professional experience, projects, and skills.</li>
-          <li><strong>Learning:</strong> Demonstrates proficiency in modern web development frameworks and tools.</li>
+          <li><strong>Key Features:</strong></li>
+          <li>Developed a user-friendly interface for managing reservations.</li>
+          <li>Implemented robust backend services using Java.</li>
+          <li>Conducted extensive testing using JUnit to ensure reliability.</li>
+          <li><strong>Impact:</strong> Improved operational efficiency and reduced booking errors by 30%.</li>
+          <li><strong>Languages/Frameworks:</strong> Java, JUnit</li>
+          <li><a href="https://github.com/shashw4t/DWMH">View on GitHub</a></li>
         </ul>
       </div>
       <div className="portfolio-item">
-        <h3 className="portfolio-item-title">Software Engineer (SWE)</h3>
-        <p className="portfolio-item-subtitle"><em>HTD Talent</em></p>
-        <p className="portfolio-item-subtitle"><em>Jul 2024 - Present</em></p>
+        <h3 className="portfolio-item-title">Predict Future Sales (Kaggle)</h3>
+        <p className="portfolio-item-subtitle"><em>Deployed advanced machine learning models, including Random Forest and 
+          XGBoost, to accurately forecast future sales. Through rigorous model optimization, 
+          I achieved a Mean Absolute Error (MAE) of 0.19, enabling better inventory planning and demand forecasting.</em></p>
         <ul className="portfolio-item-list">
-          <li><strong>Training:</strong> Completed two intensive 5-week programs on Java, OOP, SQL, Docker, and MVC.</li>
-          <li><strong>Projects:</strong> Developed a versatile reservation system and a comprehensive full-stack website.</li>
-          <li><strong>Deployment:</strong> Successfully deployed tailored software solutions to client sites.</li>
-          <li><strong>Impact:</strong> Leveraged advanced skills to drive significant improvements in client projects.</li>
+          <li><strong>Key Features:</strong></li>
+          <li>Implemented data preprocessing and feature engineering.</li>
+          <li>Trained and optimized Random Forest and XGBoost models.</li>
+          <li>Achieved a competitive MAE of 0.19.</li>
+          <li><strong>Impact:</strong> Enabled better inventory planning and demand forecasting.</li>
+          <li><strong>Languages/Frameworks:</strong> Python, Jupyter Notebook, Random Forest, XGBoost</li>
+          <li><strong>Machine Learning Algorithms:</strong> Random Forest, XGBoost</li>
+          <li><a href="https://github.com/shashw4t/sales-prediction">View on GitHub</a></li>
         </ul>
       </div>
       <div className="portfolio-item">
-        <h3 className="portfolio-item-title">Software Development Engineer</h3>
-        <p className="portfolio-item-subtitle"><em>Amazon</em></p>
-        <p className="portfolio-item-subtitle"><em>Aug 2021 - Jul 2022</em></p>
+        <h3 className="portfolio-item-title">Wikipedia Spark Analysis</h3>
+        <p className="portfolio-item-subtitle"><em>Analyzed full-text Wikipedia articles using Apache Spark. This project involved processing large datasets and performing various data analysis tasks using Spark's powerful data processing capabilities.</em></p>
         <ul className="portfolio-item-list">
-          <li><strong>Development:</strong> Enhanced Collections Workbench using Java, Python, and Bash scripts.</li>
-          <li><strong>Integration:</strong> Connected AWS services with billing and finance teams for seamless data access.</li>
-          <li><strong>Maintenance:</strong> Continuously deployed and maintained critical finance automation tools.</li>
-          <li><strong>Impact:</strong> Improved efficiency in finance operations and customer data accessibility.</li>
+          <li><strong>Key Features:</strong></li>
+          <li>Processed and analyzed large-scale text data.</li>
+          <li>Utilized Spark for efficient data processing.</li>
+          <li>Extracted meaningful insights from Wikipedia articles.</li>
+          <li><strong>Impact:</strong> Demonstrated the ability to handle and analyze large datasets efficiently.</li>
+          <li><strong>Languages/Frameworks:</strong> Scala, Apache Spark</li>
+          <li><a href="https://github.com/shashw4t/Wikipedia-Spark-Analysis">View on GitHub</a></li>
         </ul>
       </div>
       <div className="portfolio-item">
-        <h3 className="portfolio-item-title">Software Engineer</h3>
-        <p className="portfolio-item-subtitle"><em>Tata Consultancy Services</em></p>
-        <p className="portfolio-item-subtitle"><em>Feb 2021 - Jul 2022</em></p>
+        <h3 className="portfolio-item-title">Blockchain Oil</h3>
+        <p className="portfolio-item-subtitle"><em>Developed a blockchain application for a commodity-based coin, specifically for oil. This project involved creating a decentralized application to manage and trade oil-based tokens using blockchain technology.</em></p>
         <ul className="portfolio-item-list">
-          <li><strong>Consulting:</strong> Provided expert software engineering consultancy for diverse client projects.</li>
-          <li><strong>Development:</strong> Designed and implemented solutions using Java and SQL.</li>
-          <li><strong>Optimization:</strong> Achieved a 20% reduction in processing time through system enhancements.</li>
-          <li><strong>Collaboration:</strong> Improved client satisfaction by 25% with tailored solutions.</li>
+          <li><strong>Key Features:</strong></li>
+          <li>Designed and implemented a blockchain-based token system.</li>
+          <li>Developed smart contracts for oil trading.</li>
+          <li>Ensured secure and transparent transactions.</li>
+          <li><strong>Impact:</strong> Provided a secure and transparent platform for trading oil-based tokens.</li>
+          <li><strong>Languages/Frameworks:</strong> JavaScript, Blockchain</li>
+          <li><a href="https://github.com/shashw4t/blockchain-oil">View on GitHub</a></li>
         </ul>
       </div>
       <div className="portfolio-item">
-        <h3 className="portfolio-item-title">Web Developer</h3>
-        <p className="portfolio-item-subtitle"><em>Knowt</em></p>
-        <p className="portfolio-item-subtitle"><em>Jul 2019 - Apr 2020</em></p>
+        <h3 className="portfolio-item-title">NBA Data Analysis</h3>
+        <p className="portfolio-item-subtitle"><em>Implemented machine learning models to analyze NBA data. This project involved data preprocessing, feature engineering, and model training to derive insights from NBA statistics.</em></p>
         <ul className="portfolio-item-list">
-          <li><strong>Development:</strong> Developed and optimized Knowt’s website and web application using React and Node.js.</li>
-          <li><strong>UI/UX Enhancement:</strong> Improved UI design, leading to a 30% increase in user engagement.</li>
-          <li><strong>Platform Improvement:</strong> Revamped teacher platform functionality and reduced load times by 25%.</li>
-          <li><strong>Collaboration:</strong> Ensured seamless feature integration with the design team.</li>
+          <li><strong>Key Features:</strong></li>
+          <li>Collected and cleaned NBA data.</li>
+          <li>Built predictive models to analyze player performance.</li>
+          <li>Visualized data insights using Jupyter Notebook.</li>
+          <li><strong>Impact:</strong> Provided valuable insights into player performance and game strategies.</li>
+          <li><strong>Languages/Frameworks:</strong> Python, Jupyter Notebook</li>
+          <li><strong>Machine Learning Algorithms:</strong> Linear Regression, Decision Trees</li>
+          <li><a href="https://github.com/shashw4t/NBA-Data-Analysis">View on GitHub</a></li>
         </ul>
       </div>
       <div className="portfolio-item">
-        <h3 className="portfolio-item-title">Information Technology Consultant</h3>
-        <p className="portfolio-item-subtitle"><em>Rutgers Office of Information Technology</em></p>
-        <p className="portfolio-item-subtitle"><em>Mar 2018 - Dec 2018</em></p>
+        <h3 className="portfolio-item-title">SJP (Shash Job Portfolio)</h3>
+        <p className="portfolio-item-subtitle"><em>Developed a job portfolio application using TypeScript. This project showcases various job-related functionalities and serves as a comprehensive portfolio for potential employers.</em></p>
         <ul className="portfolio-item-list">
-          <li><strong>Technical Support:</strong> Provided comprehensive support, resolving 95% of issues.</li>
-          <li><strong>Troubleshooting:</strong> Diagnosed and fixed hardware/software problems, improving lab efficiency by 20%.</li>
-          <li><strong>Lab Management:</strong> Managed computer labs with 100% equipment uptime and user satisfaction.</li>
-          <li><strong>Maintenance:</strong> Extended equipment lifespan by 15% through regular maintenance.</li>
-        </ul>
-      </div>
-      <div className="portfolio-item">
-        <h3 className="portfolio-item-title">Application Developer</h3>
-        <p className="portfolio-item-subtitle"><em>Innovyt</em></p>
-        <p className="portfolio-item-subtitle"><em>May 2018 - Aug 2018</em></p>
-        <ul className="portfolio-item-list">
-          <li><strong>Blockchain Research:</strong> Investigated blockchain technology for innovative solutions.</li>
-          <li><strong>Backend Development:</strong> Built and optimized OilChain’s backend using Node.js and WebSocket.</li>
-          <li><strong>API Implementation:</strong> Developed a robust API with Express, ensuring seamless data interaction.</li>
-          <li><strong>Testing:</strong> Implemented unit tests with Jest, enhancing application reliability.</li>
-        </ul>
-      </div>
-      <div className="portfolio-item">
-        <h3 className="portfolio-item-title">Lab Researcher</h3>
-        <p className="portfolio-item-subtitle"><em>Evolutionary Ecology Lab</em></p>
-        <p className="portfolio-item-subtitle"><em>May 2017 - Sep 2017</em></p>
-        <ul className="portfolio-item-list">
-          <li><strong>Field Research:</strong> Collected samples for studies on plant species and analyzed data.</li>
-          <li><strong>Propagation Techniques:</strong> Assisted with plant propagation and applied growth hormones.</li>
-          <li><strong>Experimental Contributions:</strong> Supported key research objectives in plant growth studies.</li>
+          <li><strong>Key Features:</strong></li>
+          <li>Created a responsive web application.</li>
+          <li>Integrated job search and application tracking features.</li>
+          <li>Utilized modern web development practices.</li>
+          <li><strong>Impact:</strong> Enhanced job search experience and application tracking for users.</li>
+          <li><strong>Languages/Frameworks:</strong> TypeScript, React, Node.js</li>
+          <li><a href="https://github.com/shashw4t/SJP">View on GitHub</a></li>
         </ul>
       </div>
     </section>
