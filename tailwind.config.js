@@ -10,7 +10,7 @@ module.exports = {
         dark: '#3D3B40',
         blue: '#525CEB',
         light: '#BFCFE7',
-        lavender: '#F8EDFF',
+        lavender: '#c283e9',
       },
     },
   },
