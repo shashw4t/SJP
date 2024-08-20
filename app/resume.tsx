@@ -1,4 +1,3 @@
-// Resume.tsx
 import React from "react";
 
 const Resume = () => (
@@ -13,10 +12,10 @@ const Resume = () => (
     </p>
     <div className="p-8">
       <h1 className="text-3xl font-bold mb-2">Shashwat Singh</h1>
-      <p><strong>Email:</strong> [hidden]</p>
-      <p><strong>Phone:</strong> [hidden]</p>
-      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shashwat">linkedin.com/in/shashwat</a></p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/shashwat">github.com/shashwat</a></p>
+      <p><strong>Email:</strong> <span aria-hidden="true">[hidden]</span></p>
+      <p><strong>Phone:</strong> <span aria-hidden="true">[hidden]</span></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shashwat" target="_blank" rel="noopener noreferrer">linkedin.com/in/shashwat</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/shashwat" target="_blank" rel="noopener noreferrer">github.com/shashwat</a></p>
     </div>
     <hr className="my-4" />
   </section>
