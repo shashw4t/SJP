@@ -2,7 +2,7 @@
 import './styles/globals.css'; // Ensure this path is correct
 
 import React from "react";
-import Resume from "./pages/Resume";
+import Resume from "./pages/Summary";
 import Portfolio from "./pages/Portfolio";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
