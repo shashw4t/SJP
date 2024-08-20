@@ -1,5 +1,5 @@
 "use client";
-import '../styles/globals.css'; // Ensure this path is correct
+import './styles/globals.css'; // Ensure this path is correct
 
 import React from "react";
 import Resume from "./pages/Resume";
