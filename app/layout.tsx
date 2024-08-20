@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import LandingPage from "./LandingPage"; // Import the new component
+import LandingPage from "./landingpage"; // Import the new component
 
 const inter = Inter({ subsets: ["latin"] });
 
