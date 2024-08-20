@@ -13,8 +13,8 @@ const Resume = () => {
           experience in Java, SQL, and full-stack development. Currently, at HTD
           Talent, I enhance client projects by delivering tailored software
           solutions, including a versatile reservation system. I am adept at
-          translating complex technology into practical applications for
-          diverse clients.
+          translating complex technology into practical applications for diverse
+          clients.
         </p>
       </section>
       <section>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Resume from "./Resume.tsx";
+import Resume from "./resume";
 
 export default function Home() {
   return (
