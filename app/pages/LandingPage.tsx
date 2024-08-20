@@ -16,7 +16,7 @@ const NavigationLink = ({ href, title, description }: { href: string, title: str
   };
 
   return (
-    <a href={href} onClick={handleClick} className="cursor-pointer no-underline text-inherit">
+    <a href={href} onClick={handleClick} className="cursor-pointer no-underline text-inherit text-right">
       <h2 className="mb-3 text-2xl font-semibold">
         {title}
         <span className="inline-block transition-transform transform translate-x-0">
@@ -30,9 +30,12 @@ const NavigationLink = ({ href, title, description }: { href: string, title: str
 
 export default function LandingPage() {
   return (
-    <div className="bg-night text-beaver min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-night text-beaver min-h-screen flex flex-col items-center justify-center text-right">
+      <div className="center-content">
+        <h1>Portfolio</h1>
+      </div>
       <Image src="/app/background.jpg" alt="Landing" width={500} height={300} />
-      <nav className="mb-32 grid text-center w-full max-w-5xl grid-cols-1 gap-8 mt-8">
+      <nav className="mb-32 grid text-center w-full max-w-5xl grid-cols-1 gap-8 mt-8 text-right">
         <NavigationLink
           href="#summary"
           title="Summary"

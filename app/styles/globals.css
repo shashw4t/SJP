@@ -11,6 +11,9 @@
   --primary-font: 'Inter', sans-serif;
   --secondary-font: 'Roboto', sans-serif;
 }
+.text-right {
+  text-align: right;
+}
 
 /* Global Styles */
 body {
