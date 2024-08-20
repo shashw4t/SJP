@@ -7,8 +7,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  color: #c5c3c4; /* Updated to light gray */
-  background-color: #212531; /* Updated to deep purple */
+  color: #d3d3d3; /* Updated to light gray */
+  background-color: #0b3d0b; /* Updated to deep dark forest green */
 }
 
 .container {
@@ -16,13 +16,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 8px;
-  background-color: #c5c3c4; /* Updated to light gray */
-  color: #212531; /* Updated to deep purple */
+  background-color: #d3d3d3; /* Updated to light gray */
+  color: #0b3d0b; /* Updated to deep dark forest green */
 }
 
 .heading {
   font-size: 4xl;
-  color: #4b3a70; /* Updated to medium purple */
+  color: #a9a9a9; /* Updated to silver */
 }
 
 .button {
@@ -30,15 +30,15 @@ body {
   padding: 6px;
   padding-left: 6px;
   padding-right: 6px;
-  background-color: #4b3a70; /* Updated to medium purple */
-  color: #c5c3c4; /* Updated to light gray */
+  background-color: #a9a9a9; /* Updated to silver */
+  color: #0b3d0b; /* Updated to deep dark forest green */
   border-radius: 4px;
   transition: background-color 300ms ease-in-out;
   duration: 300ms;
 }
 
 .button:hover {
-  background-color: #322f42; /* Updated to dark purple */
+  background-color: #696969; /* Updated to dim gray */
 }
 
 .text-balance {
@@ -52,8 +52,8 @@ body {
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  background-color: #212531; /* Updated to deep purple */
-  color: #c5c3c4; /* Updated to light gray */
+  background-color: #0b3d0b; /* Updated to deep dark forest green */
+  color: #d3d3d3; /* Updated to light gray */
 }
 
 .landing-page img {
@@ -67,13 +67,13 @@ body {
 .landing-page h2 {
   font-size: 2xl;
   margin-bottom: 2px;
-  color: #4b3a70; /* Updated to medium purple */
+  color: #a9a9a9; /* Updated to silver */
 }
 
 .landing-page p {
   font-size: base;
   margin-bottom: 1px;
-  color: #b7a2c9; /* Updated to light purple */
+  color: #d3d3d3; /* Updated to light gray */
 }
 
 .portfolio-section {
@@ -140,8 +140,8 @@ body {
 
 .footer {
   padding: 16px;
-  background-color: #212531; /* Updated to deep purple */
-  color: #c5c3c4; /* Updated to light gray */
+  background-color: #0b3d0b; /* Updated to deep dark forest green */
+  color: #d3d3d3; /* Updated to light gray */
   text-align: center;
 }
 
@@ -149,8 +149,8 @@ body {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
-  color: #212531; /* Updated to deep purple */
-  background-color: #c5c3c4; /* Updated to light gray */
+  color: #0b3d0b; /* Updated to deep dark forest green */
+  background-color: #d3d3d3; /* Updated to light gray */
   border: 2px solid transparent;
   border-radius: 4px;
   text-decoration: none;
@@ -158,13 +158,13 @@ body {
 }
 
 .nav-link:hover {
-  background-color: #4b3a70; /* Updated to medium purple */
-  border-color: #322f42; /* Updated to dark purple */
-  color: #c5c3c4; /* Updated to light gray */
+  background-color: #a9a9a9; /* Updated to silver */
+  border-color: #696969; /* Updated to dim gray */
+  color: #0b3d0b; /* Updated to deep dark forest green */
 }
 
 .nav-link:active {
-  background-color: #322f42; /* Updated to dark purple */
-  border-color: #4b3a70; /* Updated to medium purple */
-  color: #c5c3c4; /* Updated to light gray */
+  background-color: #696969; /* Updated to dim gray */
+  border-color: #a9a9a9; /* Updated to silver */
+  color: #0b3d0b; /* Updated to deep dark forest green */
 }
