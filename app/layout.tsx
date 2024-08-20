@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shashw4t's Portfolio",
-  description: "Personal portfolio and resume",
+  description: "Personal portfolio and resume!",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
