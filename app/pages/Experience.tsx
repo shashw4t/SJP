@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
+
 const NavigationLink = ({ href, title, description }: { href: string, title: string, description: string }) => {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
