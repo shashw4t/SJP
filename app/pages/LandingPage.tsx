@@ -31,8 +31,8 @@ export default function LandingPage() {
   return (
     <nav className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left mt-8">
       <NavigationLink
-        href="#resume"
-        title="Resume"
+        href="#summary"
+        title="Summary"
         description="View my professional experience and education."
       />
       <NavigationLink
