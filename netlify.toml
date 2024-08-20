@@ -11,6 +11,7 @@
 
 [context.production.environment]
   NEXT_PUBLIC_API_URL = "https://api.example.com"
+  NODE_VERSION = "18.17.0"
 
 [context.deploy-preview.environment]
   NEXT_PUBLIC_API_URL = "https://staging-api.example.com"
