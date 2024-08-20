@@ -7,14 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        night: '#171614',
-        bistre: '#3a2618',
-        garnet: '#754043',
-        beaver: '#9a8873',
-        'black-olive': '#37423d',
+        dark: '#3D3B40',
+        blue: '#525CEB',
+        light: '#BFCFE7',
+        lavender: '#F8EDFF',
       },
     },
   },
   plugins: [],
 }
-

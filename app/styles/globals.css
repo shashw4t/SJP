@@ -1,23 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Koshi:wght@400;700&display=swap');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Root Variables */
 :root {
-  --night: #171614ff;
-  --bistre: #3a2618ff;
-  --garnet: #754043ff;
-  --beaver: #9a8873ff;
-  --black-olive: #37423dff;
-  --primary-font: 'Inter', sans-serif;
-  --secondary-font: 'Roboto', sans-serif;
+  --dark: #3D3B40;
+  --blue: #525CEB;
+  --light: #BFCFE7;
+  --lavender: #F8EDFF;
+  --primary-font: 'Arima Koshi', sans-serif;
+  --secondary-font: 'Arima Koshi', sans-serif;
 }
 
 /* Global Styles */
 body {
   font-family: var(--primary-font);
   line-height: 1.6;
-  color: var(--beaver);
-  background-color: var(--night);
+  color: var(--light);
+  background-color: var(--dark);
   margin: 0;
   padding: 0;
 }
@@ -28,17 +29,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: var(--garnet);
+  color: var(--blue);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--beaver);
+  color: var(--lavender);
 }
 
 button {
-  background-color: var(--garnet);
+  background-color: var(--blue);
   color: white;
   padding: 0.5rem 1rem;
   border: none;
@@ -48,49 +49,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--bistre);
-}
-
-/* Section Styles */
-section {
-  padding: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 0.5rem;
-  background-color: var(--black-olive);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: left; /* Ensure sections are left-aligned */
-}
-
-section h2 {
-  color: var(--garnet);
-}
-
-section p {
-  margin-bottom: 1rem;
-}
-
-/* Navigation Styles */
-nav a {
-  display: block;
-  padding: 1rem;
-  margin-bottom: 0.5rem;
-  background-color: var(--bistre);
-  color: white;
-  border-radius: 0.25rem;
-  transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-  background-color: var(--garnet);
-}
-
-/* Footer Styles */
-footer {
-  background-color: var(--black-olive);
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  border-top: 1px solid var(--bistre);
+  background-color: var(--dark);
 }
 
 /* Utility Classes */
@@ -122,6 +81,7 @@ footer {
   padding: 1.5rem;
 }
 
+/* Background Colors */
 .bg-gray-100 {
   background-color: #f7fafc;
 }
@@ -140,4 +100,102 @@ footer {
 
 .bg-gray-900 {
   background-color: #1a202c;
+}
+
+/* Section Styles */
+section {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--light);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Ensure sections are left-aligned */
+}
+
+section h2 {
+  color: var(--blue);
+}
+
+section p {
+  margin-bottom: 1rem;
+}
+
+/* Navigation Styles */
+nav a {
+  display: block;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--lavender);
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--dark);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid var(--blue);
+}
+
+/* Landing Page Styles */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.landing-page nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.landing-page nav a {
+  padding: 1rem 2rem;
+  background-color: var(--blue);
+  color: var(--light);
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.landing-page nav a:hover {
+  background-color: var(--lavender);
+}
+
+/* Contact Info Styles */
+.contact-info {
+  text-align: right;
+}
+
+.contact-info h1 {
+  color: var(--blue);
+}
+
+.contact-info p {
+  color: var(--light);
+}
+
+/* Summary Styles */
+.summary-title {
+  color: var(--blue);
+}
+
+.summary-text {
+  color: var(--light);
+}
+
+/* Divider Styles */
+.divider {
+  border-top: 2px solid var(--blue);
+  margin: 1.5rem 0;
 }
