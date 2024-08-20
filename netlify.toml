@@ -1,0 +1,16 @@
+[build]
+  base = ""
+  publish = "public"
+  command = "npm run build"
+
+[functions]
+  directory = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "14"
+
+[context.production.environment]
+  NEXT_PUBLIC_API_URL = "https://api.example.com"
+
+[context.deploy-preview.environment]
+  NEXT_PUBLIC_API_URL = "https://staging-api.example.com"
