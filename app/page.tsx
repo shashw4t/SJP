@@ -9,7 +9,7 @@ import Experience from "./pages/Experience";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-night text-beaver p-8">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-night text-black p-8">
       <main className="grid grid-cols-1 gap-8 w-full max-w-5xl">
         <section id="resume" className="w-full">
           <Resume />

@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="bg-night text-beaver">
+      <body className="bg-night text-black">
         <div className="mt-40">
           <LandingPage /> {/* Render the LandingPage component */}
           <main>{children}</main>
         </div>
-        <footer className="p-4 bg-black-olive text-white text-center">
+        <footer className="p-4 bg-black-olive text-black text-center">
           © 2024 Shashw4t&apos;s Portfolio
         </footer>
       </body>

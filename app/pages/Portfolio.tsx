@@ -1,16 +1,15 @@
 import React from "react";
 
-
 const Portfolio = () => {
   return (
     <section className="portfolio-section p-6 bg-gray-100 min-h-screen">
-      <h2 className="portfolio-title text-4xl font-bold mb-6 text-center">Portfolio</h2>
+      <h2 className="portfolio-title text-4xl font-bold mb-6 text-center text-mint">Portfolio</h2>
       <div className="portfolio-item mb-6 p-4 bg-white shadow-md rounded-lg">
-        <h3 className="portfolio-item-title text-2xl font-semibold">Don’t Wreck My House (DWMH)</h3>
-        <p className="portfolio-item-subtitle text-lg italic mb-4">
+        <h3 className="portfolio-item-title text-2xl font-semibold text-sage">Don’t Wreck My House (DWMH)</h3>
+        <p className="portfolio-item-subtitle text-lg italic mb-4 text-black">
           Architected and developed a comprehensive project management system to streamline the management of guest reservations for hosts. Leveraging Java and JUnit for robust functionality, the system significantly improved operational efficiency and reduced booking errors.
         </p>
-        <ul className="portfolio-item-list list-disc list-inside">
+        <ul className="portfolio-item-list list-disc list-inside text-black">
           <li><strong>Key Features:</strong></li>
           <li>Developed a user-friendly interface for managing reservations.</li>
           <li>Implemented robust backend services using Java.</li>
@@ -21,11 +20,11 @@ const Portfolio = () => {
         </ul>
       </div>
       <div className="portfolio-item mb-6 p-4 bg-white shadow-md rounded-lg">
-        <h3 className="portfolio-item-title text-2xl font-semibold">Predict Future Sales (Kaggle)</h3>
-        <p className="portfolio-item-subtitle text-lg italic mb-4">
+        <h3 className="portfolio-item-title text-2xl font-semibold text-sage">Predict Future Sales (Kaggle)</h3>
+        <p className="portfolio-item-subtitle text-lg italic mb-4 text-black">
           Deployed advanced machine learning models, including Random Forest and XGBoost, to accurately forecast future sales. Through rigorous model optimization, I achieved a Mean Absolute Error (MAE) of 0.19, enabling better inventory planning and demand forecasting.
         </p>
-        <ul className="portfolio-item-list list-disc list-inside">
+        <ul className="portfolio-item-list list-disc list-inside text-black">
           <li><strong>Key Features:</strong></li>
           <li>Implemented data preprocessing and feature engineering.</li>
           <li>Trained and optimized Random Forest and XGBoost models.</li>
@@ -37,11 +36,11 @@ const Portfolio = () => {
         </ul>
       </div>
       <div className="portfolio-item mb-6 p-4 bg-white shadow-md rounded-lg">
-        <h3 className="portfolio-item-title text-2xl font-semibold">Wikipedia Spark Analysis</h3>
-        <p className="portfolio-item-subtitle text-lg italic mb-4">
+        <h3 className="portfolio-item-title text-2xl font-semibold text-sage">Wikipedia Spark Analysis</h3>
+        <p className="portfolio-item-subtitle text-lg italic mb-4 text-black">
           Analyzed full-text Wikipedia articles using Apache Spark. This project involved processing large datasets and performing various data analysis tasks using Spark’s powerful data processing capabilities.
         </p>
-        <ul className="portfolio-item-list list-disc list-inside">
+        <ul className="portfolio-item-list list-disc list-inside text-black">
           <li><strong>Key Features:</strong></li>
           <li>Processed and analyzed large-scale text data.</li>
           <li>Utilized Spark for efficient data processing.</li>
@@ -52,11 +51,11 @@ const Portfolio = () => {
         </ul>
       </div>
       <div className="portfolio-item mb-6 p-4 bg-white shadow-md rounded-lg">
-        <h3 className="portfolio-item-title text-2xl font-semibold">Blockchain Oil</h3>
-        <p className="portfolio-item-subtitle text-lg italic mb-4">
+        <h3 className="portfolio-item-title text-2xl font-semibold text-sage">Blockchain Oil</h3>
+        <p className="portfolio-item-subtitle text-lg italic mb-4 text-black">
           Developed a blockchain application for a commodity-based coin, specifically for oil. This project involved creating a decentralized application to manage and trade oil-based tokens using blockchain technology.
         </p>
-        <ul className="portfolio-item-list list-disc list-inside">
+        <ul className="portfolio-item-list list-disc list-inside text-black">
           <li><strong>Key Features:</strong></li>
           <li>Designed and implemented a blockchain-based token system.</li>
           <li>Developed smart contracts for oil trading.</li>
@@ -67,11 +66,11 @@ const Portfolio = () => {
         </ul>
       </div>
       <div className="portfolio-item mb-6 p-4 bg-white shadow-md rounded-lg">
-        <h3 className="portfolio-item-title text-2xl font-semibold">NBA Data Analysis</h3>
-        <p className="portfolio-item-subtitle text-lg italic mb-4">
+        <h3 className="portfolio-item-title text-2xl font-semibold text-sage">NBA Data Analysis</h3>
+        <p className="portfolio-item-subtitle text-lg italic mb-4 text-black">
           Implemented machine learning models to analyze NBA data. This project involved data preprocessing, feature engineering, and model training to derive insights from NBA statistics.
         </p>
-        <ul className="portfolio-item-list list-disc list-inside">
+        <ul className="portfolio-item-list list-disc list-inside text-black">
           <li><strong>Key Features:</strong></li>
           <li>Collected and cleaned NBA data.</li>
           <li>Built predictive models to analyze player performance.</li>
@@ -83,11 +82,11 @@ const Portfolio = () => {
         </ul>
       </div>
       <div className="portfolio-item mb-6 p-4 bg-white shadow-md rounded-lg">
-        <h3 className="portfolio-item-title text-2xl font-semibold">SJP (Shash Job Portfolio)</h3>
-        <p className="portfolio-item-subtitle text-lg italic mb-4">
+        <h3 className="portfolio-item-title text-2xl font-semibold text-sage">SJP (Shash Job Portfolio)</h3>
+        <p className="portfolio-item-subtitle text-lg italic mb-4 text-black">
           Developed a job portfolio application using TypeScript. This project showcases various job-related functionalities and serves as a comprehensive portfolio for potential employers.
         </p>
-        <ul className="portfolio-item-list list-disc list-inside">
+        <ul className="portfolio-item-list list-disc list-inside text-black">
           <li><strong>Key Features:</strong></li>
           <li>Created a responsive web application.</li>
           <li>Integrated job search and application tracking features.</li>

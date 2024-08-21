@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Root Variables */
 :root {
   --dark: #040D12;
   --teal: #183D3D;
   --sage: #5C8374;
   --mint: #93B1A6;
-  --primary-font: 'Roboto', sans-serif;
+  --primary-font: 'Inter', sans-serif;
   --secondary-font: 'Roboto', sans-serif;
 }
 
@@ -17,7 +15,7 @@
 body {
   font-family: var(--primary-font);
   line-height: 1.6;
-  color: var(--mint);
+  color: black; /* Changed to black */
   background-color: var(--dark);
   margin: 0;
   padding: 0;
@@ -26,16 +24,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--secondary-font);
   margin-bottom: 1rem;
+  color: var(--sage); /* Changed to sage */
 }
 
 a {
-  color: var(--teal);
+  color: black; /* Changed to black */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--sage);
+  color: var(--mint); /* Changed to mint */
 }
 
 button {
@@ -49,7 +48,62 @@ button {
 }
 
 button:hover {
-  background-color: var(--dark);
+  background-color: var(--sage); /* Changed to sage */
+}
+
+/* Section Styles */
+section {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--teal); /* Default background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: black; /* Default text color */
+}
+
+section h2 {
+  color: var(--mint); /* Changed to mint */
+}
+
+section p {
+  margin-bottom: 1rem;
+  color: black; /* Changed to black */
+}
+
+/* Light Background Section */
+.section-light {
+  background-color: var(--mint); /* Lighter background color */
+  color: black; /* Ensure text is black */
+}
+
+/* Dark Background Section */
+.section-dark {
+  background-color: var(--dark); /* Dark background color */
+  color: white; /* Ensure text is white */
+}
+
+/* Navigation Styles */
+nav a {
+  display: block;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--teal);
+  color: white;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--sage); /* Changed to sage */
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--teal);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid var(--sage); /* Changed to sage */
 }
 
 /* Utility Classes */
@@ -81,7 +135,6 @@ button:hover {
   padding: 1.5rem;
 }
 
-/* Background Colors */
 .bg-gray-100 {
   background-color: #f7fafc;
 }
@@ -100,102 +153,4 @@ button:hover {
 
 .bg-gray-900 {
   background-color: #1a202c;
-}
-
-/* Section Styles */
-section {
-  padding: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 0.5rem;
-  background-color: var(--mint);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: left; /* Ensure sections are left-aligned */
-}
-
-section h2 {
-  color: var(--teal);
-}
-
-section p {
-  margin-bottom: 1rem;
-}
-
-/* Navigation Styles */
-nav a {
-  display: block;
-  padding: 1rem;
-  margin-bottom: 0.5rem;
-  background-color: var(--teal);
-  color: white;
-  border-radius: 0.25rem;
-  transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-  background-color: var(--sage);
-}
-
-/* Footer Styles */
-footer {
-  background-color: var(--dark);
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  border-top: 1px solid var(--teal);
-}
-
-/* Landing Page Styles */
-.landing-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-color: var(--dark);
-  color: var(--mint);
-}
-
-.landing-page nav {
-  display: flex;
-  gap: 1rem;
-}
-
-.landing-page nav a {
-  padding: 1rem 2rem;
-  background-color: var(--teal);
-  color: var(--mint);
-  border-radius: 0.5rem;
-  transition: background-color 0.3s ease;
-}
-
-.landing-page nav a:hover {
-  background-color: var(--sage);
-}
-
-/* Contact Info Styles */
-.contact-info {
-  text-align: right;
-}
-
-.contact-info h1 {
-  color: var(--teal);
-}
-
-.contact-info p {
-  color: var(--mint);
-}
-
-/* Summary Styles */
-.summary-title {
-  color: var(--teal);
-}
-
-.summary-text {
-  color: var(--mint);
-}
-
-/* Divider Styles */
-.divider {
-  border-top: 2px solid var(--teal);
-  margin: 1.5rem 0;
 }
