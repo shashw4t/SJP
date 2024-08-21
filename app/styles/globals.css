@@ -5,10 +5,10 @@
 
 /* Root Variables */
 :root {
-  --dark: #3D3B40;
-  --blue: #525CEB;
-  --light: #030303;
-  --lavender: #dab6f0;
+  --dark: #040D12;
+  --teal: #183D3D;
+  --sage: #5C8374;
+  --mint: #93B1A6;
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Roboto', sans-serif;
 }
@@ -17,7 +17,7 @@
 body {
   font-family: var(--primary-font);
   line-height: 1.6;
-  color: var(--light);
+  color: var(--mint);
   background-color: var(--dark);
   margin: 0;
   padding: 0;
@@ -29,17 +29,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: var(--blue);
+  color: var(--teal);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--lavender);
+  color: var(--sage);
 }
 
 button {
-  background-color: var(--blue);
+  background-color: var(--teal);
   color: white;
   padding: 0.5rem 1rem;
   border: none;
@@ -107,13 +107,13 @@ section {
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
-  background-color: var(--light);
+  background-color: var(--mint);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left; /* Ensure sections are left-aligned */
 }
 
 section h2 {
-  color: var(--blue);
+  color: var(--teal);
 }
 
 section p {
@@ -125,14 +125,14 @@ nav a {
   display: block;
   padding: 1rem;
   margin-bottom: 0.5rem;
-  background-color: var(--blue);
+  background-color: var(--teal);
   color: white;
   border-radius: 0.25rem;
   transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-  background-color: var(--lavender);
+  background-color: var(--sage);
 }
 
 /* Footer Styles */
@@ -141,7 +141,7 @@ footer {
   color: white;
   padding: 1rem;
   text-align: center;
-  border-top: 1px solid var(--blue);
+  border-top: 1px solid var(--teal);
 }
 
 /* Landing Page Styles */
@@ -152,7 +152,7 @@ footer {
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark);
-  color: var(--light);
+  color: var(--mint);
 }
 
 .landing-page nav {
@@ -162,14 +162,14 @@ footer {
 
 .landing-page nav a {
   padding: 1rem 2rem;
-  background-color: var(--blue);
-  color: var(--light);
+  background-color: var(--teal);
+  color: var(--mint);
   border-radius: 0.5rem;
   transition: background-color 0.3s ease;
 }
 
 .landing-page nav a:hover {
-  background-color: var(--lavender);
+  background-color: var(--sage);
 }
 
 /* Contact Info Styles */
@@ -178,24 +178,24 @@ footer {
 }
 
 .contact-info h1 {
-  color: var(--blue);
+  color: var(--teal);
 }
 
 .contact-info p {
-  color: var(--light);
+  color: var(--mint);
 }
 
 /* Summary Styles */
 .summary-title {
-  color: var(--blue);
+  color: var(--teal);
 }
 
 .summary-text {
-  color: var(--light);
+  color: var(--mint);
 }
 
 /* Divider Styles */
 .divider {
-  border-top: 2px solid var(--blue);
+  border-top: 2px solid var(--teal);
   margin: 1.5rem 0;
 }
