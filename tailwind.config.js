@@ -12,6 +12,10 @@ module.exports = {
         sage: '#5C8374',
         mint: '#93B1A6',
       },
+      fontFamily: {
+        primary: ['Roboto', 'sans-serif'],
+        secondary: ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],
