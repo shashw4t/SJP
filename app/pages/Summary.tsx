@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => (
   <section className="resume-section p-6 bg-gray-100 flex justify-end items-center min-h-screen">
-    <div className="contact-info mb-6 text-right">
+    <div className="contact-info mb-6 text-left">
       <h1 className="name-title text-4xl font-bold mb-2">Shashwat Singh</h1>
       <p className="contact-item text-lg"><strong>Email:</strong> <span aria-hidden="true">[hidden]</span></p>
       <p className="contact-item text-lg"><strong>Phone:</strong> <span aria-hidden="true">[hidden]</span></p>
