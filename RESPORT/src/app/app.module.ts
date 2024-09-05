@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
@@ -16,23 +17,25 @@ import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent,
-    AboutComponent,
-    SkillsComponent,
-    ExperienceComponent,
-    ProjectsComponent,
-    ContactComponent
+	AppComponent,
+	HeaderComponent,
+	AboutComponent,
+	SkillsComponent,
+	ExperienceComponent,
+	ProjectsComponent,
+	ContactComponent
   ],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatCardModule,
-    MatListModule,
-    MatButtonModule
+	BrowserModule,
+	BrowserAnimationsModule,
+	MatToolbarModule,
+	MatCardModule,
+	MatListModule,
+	MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
